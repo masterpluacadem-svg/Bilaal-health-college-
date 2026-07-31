@@ -29,7 +29,7 @@ export const programsData: Program[] = [
     fullDescription:
       "The Diploma in Pharmacy program at Bilaal Health Science College is designed to train highly competent pharmacy technicians and pharmaceutical professionals. Students acquire thorough expertise in pharmacology, pharmaceutics, pharmaceutical chemistry, clinical pharmacy, and supply chain management suited for public and private healthcare settings across Somalia.",
     iconName: "Pill",
-    duration: "2 Years (4 Semesters)",
+    duration: "2 Years (3 Semesters)",
     qualification: "Diploma in Pharmaceutical Sciences",
     intake: "September & March Intakes",
     entryRequirements: [
@@ -90,7 +90,7 @@ export const programsData: Program[] = [
     fullDescription:
       "The Diploma in Nursing is a premier program providing hands-on clinical training, emergency response practice, and evidence-based patient management. Graduates are prepared to deliver high-quality nursing care in acute care hospitals, maternal wards, outpatient clinics, and community health centers.",
     iconName: "Stethoscope",
-    duration: "2 Years (4 Semesters)",
+    duration: "2 Years (3 Semesters)",
     qualification: "Diploma in General Nursing",
     intake: "September & March Intakes",
     entryRequirements: [
@@ -150,7 +150,7 @@ export const programsData: Program[] = [
     fullDescription:
       "Designed to address critical maternal and child healthcare needs in Somalia, the Diploma in Midwifery empowers students with expert knowledge in prenatal monitoring, labor management, safe delivery, neonatal resuscitation, and family healthcare.",
     iconName: "HeartPulse",
-    duration: "2 Years (4 Semesters)",
+    duration: "2 Years (3 Semesters)",
     qualification: "Diploma in Professional Midwifery",
     intake: "September & March Intakes",
     entryRequirements: [
@@ -209,7 +209,7 @@ export const programsData: Program[] = [
     fullDescription:
       "The Diploma in Nutrition prepares specialists to assess, manage, and prevent nutritional deficiencies and diet-related chronic conditions. Students learn clinical dietetics, maternal-child nutrition, community assessment, and therapeutic feeding protocols key to public health in Somalia.",
     iconName: "Apple",
-    duration: "2 Years (4 Semesters)",
+    duration: "2 Years (3 Semesters)",
     qualification: "Diploma in Human Nutrition & Dietetics",
     intake: "September & March Intakes",
     entryRequirements: [
@@ -268,7 +268,7 @@ export const programsData: Program[] = [
     fullDescription:
       "The Diploma in Public Health equips students with population health strategies, epidemic surveillance techniques, water and sanitation engineering basics, and health policy planning. Graduates lead disease prevention campaigns and public health interventions across Puntland.",
     iconName: "Activity",
-    duration: "2 Years (4 Semesters)",
+    duration: "2 Years (3 Semesters)",
     qualification: "Diploma in Public Health Sciences",
     intake: "September & March Intakes",
     entryRequirements: [

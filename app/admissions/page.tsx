@@ -47,7 +47,7 @@ export default function AdmissionsPage() {
   const faqs = [
     {
       q: 'What programs are offered at Bilaal Health Science College?',
-      a: 'We offer five accredited 3-year Diploma programs: Diploma in Pharmacy, Diploma in Nursing, Diploma in Midwifery, Diploma in Nutrition, and Diploma in Public Health.',
+      a: 'We offer five accredited 2-year (3 semesters) Diploma programs: Diploma in Pharmacy, Diploma in Nursing, Diploma in Midwifery, Diploma in Nutrition, and Diploma in Public Health.',
     },
     {
       q: 'Where is the college located?',

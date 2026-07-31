@@ -261,11 +261,11 @@ export const ApplicationForm: React.FC = () => {
                 onChange={handleChange}
                 className="w-full px-4 py-3.5 rounded-xl border border-bilaal-primary focus:border-bilaal-primary focus:ring-2 focus:ring-bilaal-primary/20 outline-none transition-all text-base font-heading font-semibold text-bilaal-primary bg-bilaal-light/40"
               >
-                <option value="Diploma in Pharmacy">Diploma in Pharmacy (2 Years)</option>
-                <option value="Diploma in Nursing">Diploma in Nursing (2 Years)</option>
-                <option value="Diploma in Midwifery">Diploma in Midwifery (2 Years)</option>
-                <option value="Diploma in Nutrition">Diploma in Nutrition (2 Years)</option>
-                <option value="Diploma in Public Health">Diploma in Public Health (2 Years)</option>
+                <option value="Diploma in Pharmacy">Diploma in Pharmacy (2 Years - 3 Semesters)</option>
+                <option value="Diploma in Nursing">Diploma in Nursing (2 Years - 3 Semesters)</option>
+                <option value="Diploma in Midwifery">Diploma in Midwifery (2 Years - 3 Semesters)</option>
+                <option value="Diploma in Nutrition">Diploma in Nutrition (2 Years - 3 Semesters)</option>
+                <option value="Diploma in Public Health">Diploma in Public Health (2 Years - 3 Semesters)</option>
               </select>
             </div>
 

@@ -264,7 +264,7 @@ export default function HomePage() {
           <SectionHeader
             badge="Academic Programs"
             title="Our Offered Diploma Programs"
-            subtitle="Comprehensive 3-year diploma programs tailored to modern healthcare requirements in Puntland and international standards."
+            subtitle="Comprehensive 2-year (3 semesters) diploma programs tailored to modern healthcare requirements in Puntland and international standards."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

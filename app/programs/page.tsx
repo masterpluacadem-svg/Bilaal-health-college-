@@ -61,7 +61,7 @@ export default function ProgramsPage() {
         <SectionHeader
           badge="Curriculum & Pathways"
           title="Choose Your Healthcare Specialization"
-          subtitle="All programs feature 3-year structured semestral training, hands-on skills simulation, and clinical hospital rotations."
+          subtitle="All programs feature 2-year (3 semesters) structured training, hands-on skills simulation, and clinical hospital rotations."
         />
 
         <div className="space-y-8">
