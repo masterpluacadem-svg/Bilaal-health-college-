@@ -44,6 +44,34 @@ export const galleryData: GalleryItem[] = [
   },
   {
     id: "g6",
+    title: "Classroom Lecture Sessions",
+    category: "Campus",
+    image: "/images/classroom-backview.jpg",
+    description: "Lecture room perspective with students actively participating in health science seminars."
+  },
+  {
+    id: "g7",
+    title: "Full Student & Instructor Body",
+    category: "Events",
+    image: "/images/group-outdoors.jpg",
+    description: "Group portrait of the Bilaal Health Science College students and administrative lecturers on the campus courtyard."
+  },
+  {
+    id: "g8",
+    title: "Healthcare Training Cohort",
+    category: "Events",
+    image: "/images/female-students-group.jpg",
+    description: "Group of female health science students in lab coats and stethoscopes standing in front of the Bilaal welcome sign."
+  },
+  {
+    id: "g9",
+    title: "Midwifery & Nursing Practical Team",
+    category: "Clinical Practice",
+    image: "/images/students-welcome-sign.png",
+    description: "Accredited diploma candidates collaborating during practical nursing and midwifery simulation prep."
+  },
+  {
+    id: "g10",
     title: "Garowe Main Campus Building",
     category: "Campus",
     image: "/images/campus.png",
