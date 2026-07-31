@@ -72,6 +72,34 @@ export const galleryData: GalleryItem[] = [
   },
   {
     id: "g10",
+    title: "Clinical Equipment Setup",
+    category: "Laboratories",
+    image: "/images/projector-equipment-lab.jpg",
+    description: "Close-up view of interactive projector tools, clinical mock-up equipment, and diagnostic tools in the simulation lab."
+  },
+  {
+    id: "g11",
+    title: "Infant Care & Neonatal Practice",
+    category: "Clinical Practice",
+    image: "/images/neonatal-simulation.jpg",
+    description: "Midwifery and nursing candidates practicing neonatal resuscitation procedures on infant simulation models."
+  },
+  {
+    id: "g12",
+    title: "Diagnostic & Blood Pressure Check",
+    category: "Clinical Practice",
+    image: "/images/blood-pressure-check.jpg",
+    description: "Health science students practicing manual blood pressure measurement using a sphygmomanometer."
+  },
+  {
+    id: "g13",
+    title: "Instructor Guided Presentations",
+    category: "Campus",
+    image: "/images/instructor-presentation.jpg",
+    description: "Specialized lecturer instructing students on clinical protocols using visual slide presentations."
+  },
+  {
+    id: "g14",
     title: "Garowe Main Campus Building",
     category: "Campus",
     image: "/images/campus.png",
