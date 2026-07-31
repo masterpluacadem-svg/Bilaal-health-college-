@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { SectionHeader } from '@/components/ui/SectionHeader';
 import { programsData } from '@/data/programsData';
 import { newsData } from '@/data/newsData';
-import { testimonialsData } from '@/data/testimonialsData';
+
 import {
   GraduationCap,
   Stethoscope,
@@ -216,12 +216,12 @@ export default function HomePage() {
 
           <div className="text-center p-4 rounded-2xl bg-bilaal-light/50 border border-bilaal-secondary/10 space-y-1">
             <div className="font-heading font-extrabold text-3xl sm:text-4xl text-bilaal-primary">
-              1,200+
+              100+
             </div>
             <div className="font-heading font-bold text-xs sm:text-sm text-bilaal-dark uppercase tracking-wider">
-              Graduates
+              Active Students
             </div>
-            <div className="text-xs text-gray-500">Serving across Somalia</div>
+            <div className="text-xs text-gray-500">Currently studying with us</div>
           </div>
         </div>
       </section>
@@ -413,47 +413,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ==================================================== */}
-      {/* SECTION 7: STUDENT TESTIMONIALS                       */}
-      {/* ==================================================== */}
-      <section className="bg-bilaal-light py-16 sm:py-24 border-y border-bilaal-secondary/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-          <SectionHeader
-            badge="Student Voice"
-            title="What Our Students & Alumni Say"
-            subtitle="Hear from graduates who are now actively contributing to healthcare systems across Puntland."
-          />
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonialsData.map((item) => (
-              <div
-                key={item.id}
-                className="bg-white p-8 rounded-3xl shadow-soft border border-gray-100 flex flex-col justify-between space-y-6"
-              >
-                <p className="text-gray-700 text-sm leading-relaxed italic">
-                  "{item.quote}"
-                </p>
-
-                <div className="flex items-center gap-3 pt-4 border-t border-gray-100">
-                  <div
-                    className={`w-11 h-11 rounded-full ${item.avatarBg} text-white font-heading font-bold text-sm flex items-center justify-center shrink-0 shadow`}
-                  >
-                    {item.name.charAt(0)}
-                  </div>
-                  <div>
-                    <h4 className="font-heading font-bold text-sm text-bilaal-dark">
-                      {item.name}
-                    </h4>
-                    <p className="text-xs text-bilaal-primary font-medium">
-                      {item.role} • {item.program}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ==================================================== */}
       {/* SECTION 8: LATEST NEWS                               */}
