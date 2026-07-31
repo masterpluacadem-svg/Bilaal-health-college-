@@ -73,7 +73,7 @@ export default function AdmissionsPage() {
       <section className="bg-bilaal-navy text-white py-16 sm:py-20 relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero.png"
+            src="/images/female-students-group.jpg"
             alt="Admissions"
             fill
             className="object-cover opacity-20 mix-blend-overlay"

@@ -41,7 +41,7 @@ export default function AboutPage() {
       <section className="bg-bilaal-navy text-white py-16 sm:py-20 relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/campus.png"
+            src="/images/students-welcome-sign.png"
             alt="Campus"
             fill
             className="object-cover opacity-20 mix-blend-overlay"
@@ -112,8 +112,8 @@ export default function AboutPage() {
 
           <div className="lg:col-span-6 relative h-96 sm:h-[450px] rounded-3xl overflow-hidden shadow-card border-4 border-white">
             <Image
-              src="/images/hero.png"
-              alt="Bilaal Students in Laboratory"
+              src="/images/group-outdoors.jpg"
+              alt="Bilaal Health Science Students"
               fill
               className="object-cover"
             />
@@ -177,8 +177,8 @@ export default function AboutPage() {
         <div className="bg-bilaal-navy text-white rounded-3xl p-8 sm:p-12 shadow-card grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-4 relative h-64 sm:h-80 rounded-2xl overflow-hidden border-2 border-white/20">
             <Image
-              src="/images/skills-lab.png"
-              alt="Principal Message"
+              src="/images/instructor-presentation.jpg"
+              alt="Lecturer at Bilaal Health Science College"
               fill
               className="object-cover"
             />

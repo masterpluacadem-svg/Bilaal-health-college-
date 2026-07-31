@@ -18,7 +18,7 @@ export default function ContactPage() {
       <section className="bg-bilaal-navy text-white py-16 sm:py-20 relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/campus.png"
+            src="/images/outdoor-practice.jpg"
             alt="Campus Location"
             fill
             className="object-cover opacity-20 mix-blend-overlay"

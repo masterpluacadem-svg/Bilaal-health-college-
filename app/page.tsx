@@ -85,22 +85,22 @@ export default function HomePage() {
     {
       title: "Skills Laboratory",
       description: "High-fidelity patient simulation beds, clinical manikins, and emergency triage stations.",
-      image: "/images/skills-lab.png"
+      image: "/images/clinical-practice.jpg"
     },
     {
       title: "Modern Classrooms",
       description: "Air-conditioned lecture rooms equipped with digital projection systems and ergonomic seating.",
-      image: "/images/hero.png"
+      image: "/images/classroom-students.jpg"
     },
     {
       title: "Library & Digital Resources",
       description: "Extensive physical collection of medical textbooks, journals, and internet research terminals.",
-      image: "/images/pharmacy.png"
+      image: "/images/projector-equipment-lab.jpg"
     },
     {
       title: "Student Learning Environment",
       description: "Calm, welcoming, and organized campus atmosphere designed for high academic focus in Garowe.",
-      image: "/images/campus.png"
+      image: "/images/classroom-backview.jpg"
     }
   ];
 
@@ -113,7 +113,7 @@ export default function HomePage() {
         {/* Background Healthcare Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero.png"
+            src="/images/students-welcome-sign.png"
             alt="Bilaal Health Science College Students in Lab"
             fill
             priority
@@ -366,7 +366,7 @@ export default function HomePage() {
 
             <div className="lg:col-span-5 relative h-80 sm:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white/20">
               <Image
-                src="/images/campus.png"
+                src="/images/group-outdoors.jpg"
                 alt="Garowe Campus Building"
                 fill
                 className="object-cover"

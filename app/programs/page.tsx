@@ -36,8 +36,8 @@ export default function ProgramsPage() {
       <section className="bg-bilaal-navy text-white py-16 sm:py-20 relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/pharmacy.png"
-            alt="Pharmacy Lab"
+            src="/images/classroom-presentation.jpg"
+            alt="Bilaal Health Science Classroom"
             fill
             className="object-cover opacity-20 mix-blend-overlay"
           />
