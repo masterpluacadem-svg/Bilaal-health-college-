@@ -29,7 +29,7 @@ export const programsData: Program[] = [
     fullDescription:
       "The Diploma in Pharmacy program at Bilaal Health Science College is designed to train highly competent pharmacy technicians and pharmaceutical professionals. Students acquire thorough expertise in pharmacology, pharmaceutics, pharmaceutical chemistry, clinical pharmacy, and supply chain management suited for public and private healthcare settings across Somalia.",
     iconName: "Pill",
-    duration: "3 Years (6 Semesters)",
+    duration: "2 Years (4 Semesters)",
     qualification: "Diploma in Pharmaceutical Sciences",
     intake: "September & March Intakes",
     entryRequirements: [
@@ -57,23 +57,17 @@ export const programsData: Program[] = [
         ]
       },
       {
-        year: "Year 2: Applied Pharmacology & Dispensing",
+        year: "Year 2: Applied Pharmacology, Dispensing & Clinical Practice",
         modules: [
           "Pharmacology & Therapeutics I & II",
           "Pharmaceutics & Dispensing Technique",
           "Pharmaceutical Calculations & Compounding",
           "Pathophysiology & Disease Processes",
-          "Health Supply Chain & Drug Logistics"
-        ]
-      },
-      {
-        year: "Year 3: Clinical Practice & Hospital Internship",
-        modules: [
+          "Health Supply Chain & Drug Logistics",
           "Clinical Pharmacy & Patient Counseling",
           "Toxicology & Drug Safety",
           "Pharmacy Law & Regulation in Somalia",
-          "Hospital Pharmacy Practicum",
-          "Community Pharmacy Internship & Research Project"
+          "Hospital & Community Pharmacy Internship"
         ]
       }
     ],
@@ -84,7 +78,7 @@ export const programsData: Program[] = [
       "Adhere strictly to medical ethics and national drug regulatory guidelines."
     ],
     clinicalPractice:
-      "Includes 600 hours of clinical rotation in hospital pharmacies and community drug centers across Garowe and Puntland regional hospitals.",
+      "Includes 400 hours of clinical rotation in hospital pharmacies and community drug centers across Garowe and Puntland regional hospitals.",
     image: "/images/pharmacy.png"
   },
   {
@@ -96,7 +90,7 @@ export const programsData: Program[] = [
     fullDescription:
       "The Diploma in Nursing is a premier program providing hands-on clinical training, emergency response practice, and evidence-based patient management. Graduates are prepared to deliver high-quality nursing care in acute care hospitals, maternal wards, outpatient clinics, and community health centers.",
     iconName: "Stethoscope",
-    duration: "3 Years (6 Semesters)",
+    duration: "2 Years (4 Semesters)",
     qualification: "Diploma in General Nursing",
     intake: "September & March Intakes",
     entryRequirements: [
@@ -124,23 +118,16 @@ export const programsData: Program[] = [
         ]
       },
       {
-        year: "Year 2: Medical-Surgical & Special Care Nursing",
+        year: "Year 2: Medical-Surgical Nursing, Critical Care & Field Practice",
         modules: [
           "Medical-Surgical Nursing I & II",
           "Pharmacology for Nurses",
           "Pediatric & Child Health Nursing",
           "Infection Prevention & Control",
-          "Mental Health Nursing"
-        ]
-      },
-      {
-        year: "Year 3: Advanced Clinical Practicum & Management",
-        modules: [
           "Emergency & Critical Care Nursing",
           "Community Health Nursing",
           "Nursing Leadership & Ward Management",
-          "Clinical Internship at Garowe General Hospital",
-          "Comprehensive Nursing Licensing Review"
+          "Clinical Internship at Garowe General Hospital"
         ]
       }
     ],
@@ -151,7 +138,7 @@ export const programsData: Program[] = [
       "Collaborate seamlessly with doctors, midwives, and public health officials."
     ],
     clinicalPractice:
-      "800+ clinical practical hours in simulation laboratories and real-world clinical ward rotations at Puntland regional hospitals.",
+      "600+ clinical practical hours in simulation laboratories and real-world clinical ward rotations at Puntland regional hospitals.",
     image: "/images/skills-lab.png"
   },
   {
@@ -163,7 +150,7 @@ export const programsData: Program[] = [
     fullDescription:
       "Designed to address critical maternal and child healthcare needs in Somalia, the Diploma in Midwifery empowers students with expert knowledge in prenatal monitoring, labor management, safe delivery, neonatal resuscitation, and family healthcare.",
     iconName: "HeartPulse",
-    duration: "3 Years (6 Semesters)",
+    duration: "2 Years (4 Semesters)",
     qualification: "Diploma in Professional Midwifery",
     intake: "September & March Intakes",
     entryRequirements: [
@@ -190,23 +177,16 @@ export const programsData: Program[] = [
         ]
       },
       {
-        year: "Year 2: Antenatal & Labor Management",
+        year: "Year 2: Labor Management, Complications & Field Work",
         modules: [
           "Antenatal Care & Fetal Monitoring",
           "Normal Labor & Conduct of Safe Delivery",
           "Pharmacology in Obstetric Practice",
           "Neonatal Care & Resuscitation",
-          "Postpartum Care & Lactation Support"
-        ]
-      },
-      {
-        year: "Year 3: High-Risk Obstetrics & Field Practice",
-        modules: [
+          "Postpartum Care & Lactation Support",
           "Obstetric Complications & Emergency Midwifery",
           "Family Planning & Reproductive Health",
-          "Community Midwifery Practicum",
-          "Clinical Ward Rotation in Delivery Suites",
-          "Comprehensive Midwifery Board Exam Prep"
+          "Community Midwifery Practicum & Ward Rotation"
         ]
       }
     ],
@@ -217,7 +197,7 @@ export const programsData: Program[] = [
       "Promote community reproductive health education."
     ],
     clinicalPractice:
-      "Includes supervised hands-on deliveries, maternity ward night shifts, and primary healthcare clinic clinical attachments.",
+      "Includes supervised hands-on deliveries, maternity ward shifts, and primary healthcare clinic clinical attachments.",
     image: "/images/hero.png"
   },
   {
@@ -229,7 +209,7 @@ export const programsData: Program[] = [
     fullDescription:
       "The Diploma in Nutrition prepares specialists to assess, manage, and prevent nutritional deficiencies and diet-related chronic conditions. Students learn clinical dietetics, maternal-child nutrition, community assessment, and therapeutic feeding protocols key to public health in Somalia.",
     iconName: "Apple",
-    duration: "3 Years (6 Semesters)",
+    duration: "2 Years (4 Semesters)",
     qualification: "Diploma in Human Nutrition & Dietetics",
     intake: "September & March Intakes",
     entryRequirements: [
@@ -256,23 +236,16 @@ export const programsData: Program[] = [
         ]
       },
       {
-        year: "Year 2: Clinical & Therapeutic Nutrition",
+        year: "Year 2: Clinical Nutrition, Malnutrition Response & Field Practicum",
         modules: [
           "Therapeutic Nutrition & Diet Therapy",
           "Maternal & Child Nutrition",
           "Nutritional Assessment Methods",
           "Public Health Nutrition & Food Security",
-          "Malnutrition Emergency Management Protocols"
-        ]
-      },
-      {
-        year: "Year 3: Field Practicum & Health Management",
-        modules: [
+          "Malnutrition Emergency Management Protocols",
           "Food Safety, Sanitation & Hygiene",
           "Community Nutrition Field Research",
-          "Hospital Clinical Dietetics Internship",
-          "Project Design & Nutritional Surveillance",
-          "Final Diploma Capstone Project"
+          "Hospital Clinical Dietetics Internship"
         ]
       }
     ],
@@ -295,7 +268,7 @@ export const programsData: Program[] = [
     fullDescription:
       "The Diploma in Public Health equips students with population health strategies, epidemic surveillance techniques, water and sanitation engineering basics, and health policy planning. Graduates lead disease prevention campaigns and public health interventions across Puntland.",
     iconName: "Activity",
-    duration: "3 Years (6 Semesters)",
+    duration: "2 Years (4 Semesters)",
     qualification: "Diploma in Public Health Sciences",
     intake: "September & March Intakes",
     entryRequirements: [
@@ -322,23 +295,16 @@ export const programsData: Program[] = [
         ]
       },
       {
-        year: "Year 2: Disease Control & Environmental Health",
+        year: "Year 2: Disease Control, environmental health & Outbreak Surveillance",
         modules: [
           "Communicable & Non-Communicable Disease Control",
           "Environmental Health & Sanitation (WASH)",
           "Health Promotion & Disease Prevention",
           "Occupational Health & Safety",
-          "Health Policy & Health Systems in Somalia"
-        ]
-      },
-      {
-        year: "Year 3: Field Operations & Internship",
-        modules: [
+          "Health Policy & Health Systems in Somalia",
           "Outbreak Investigation & Surveillance",
           "Health Service Management & Leadership",
-          "Public Health Field Internship",
-          "Disaster & Emergency Health Preparedness",
-          "Research Project & Community Survey"
+          "Public Health Field Internship"
         ]
       }
     ],

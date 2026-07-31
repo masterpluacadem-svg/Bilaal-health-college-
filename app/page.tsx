@@ -196,7 +196,7 @@ export default function HomePage() {
 
           <div className="text-center p-4 rounded-2xl bg-bilaal-light/50 border border-bilaal-secondary/10 space-y-1">
             <div className="font-heading font-extrabold text-3xl sm:text-4xl text-bilaal-primary">
-              35+
+              100%
             </div>
             <div className="font-heading font-bold text-xs sm:text-sm text-bilaal-dark uppercase tracking-wider">
               Qualified Lecturers
