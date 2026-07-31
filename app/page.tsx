@@ -271,36 +271,48 @@ export default function HomePage() {
             {programsData.map((prog) => (
               <div
                 key={prog.id}
-                className="bg-[#F5F9FD] rounded-3xl border border-bilaal-secondary/15 p-8 flex flex-col justify-between hover:shadow-card-hover transition-all duration-300 group"
+                className="bg-white rounded-3xl overflow-hidden border border-bilaal-secondary/15 flex flex-col justify-between hover:shadow-card-hover transition-all duration-300 group"
               >
-                <div className="space-y-5">
-                  <div className="flex items-center justify-between">
-                    <div className="w-14 h-14 rounded-2xl bg-white flex items-center justify-center shadow-sm border border-bilaal-secondary/20">
+                <div>
+                  <div className="relative h-48 w-full overflow-hidden bg-gray-100">
+                    <Image
+                      src={prog.image}
+                      alt={prog.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute top-4 left-4 w-12 h-12 rounded-xl bg-white/95 backdrop-blur-sm flex items-center justify-center shadow border border-bilaal-secondary/10 z-10">
                       {getProgramIcon(prog.iconName)}
                     </div>
-                    <span className="text-xs font-heading font-semibold text-bilaal-primary bg-white px-3 py-1 rounded-full border border-bilaal-secondary/20">
-                      {prog.duration}
-                    </span>
                   </div>
+                  <div className="p-6 space-y-4">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-heading font-semibold text-bilaal-primary bg-bilaal-light px-3 py-1 rounded-full border border-bilaal-secondary/20">
+                        {prog.duration}
+                      </span>
+                    </div>
 
-                  <h3 className="font-heading font-extrabold text-2xl text-bilaal-dark group-hover:text-bilaal-primary transition-colors">
-                    {prog.title}
-                  </h3>
+                    <h3 className="font-heading font-extrabold text-xl text-bilaal-dark group-hover:text-bilaal-primary transition-colors">
+                      {prog.title}
+                    </h3>
 
-                  <p className="text-gray-600 text-sm leading-relaxed line-clamp-3">
-                    {prog.shortDescription}
-                  </p>
+                    <p className="text-gray-600 text-xs sm:text-sm leading-relaxed line-clamp-3">
+                      {prog.shortDescription}
+                    </p>
+                  </div>
                 </div>
 
-                <div className="pt-8 border-t border-gray-200/60 mt-6 flex items-center justify-between">
-                  <span className="text-xs text-gray-500 font-medium">Garowe Campus</span>
-                  <Link
-                    href={`/programs/${prog.slug}`}
-                    className="inline-flex items-center gap-1.5 text-bilaal-primary font-heading font-bold text-sm hover:text-bilaal-secondary group-hover:translate-x-1 transition-all"
-                  >
-                    <span>Learn More</span>
-                    <ArrowRight className="w-4 h-4" />
-                  </Link>
+                <div className="p-6 pt-0">
+                  <div className="pt-4 border-t border-gray-100 flex items-center justify-between">
+                    <span className="text-xs text-gray-500 font-medium">Garowe Campus</span>
+                    <Link
+                      href={`/programs/${prog.slug}`}
+                      className="inline-flex items-center gap-1.5 text-bilaal-primary font-heading font-bold text-sm hover:text-bilaal-secondary group-hover:translate-x-1 transition-all"
+                    >
+                      <span>Learn More</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
+                  </div>
                 </div>
               </div>
             ))}
