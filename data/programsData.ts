@@ -79,7 +79,7 @@ export const programsData: Program[] = [
     ],
     clinicalPractice:
       "Includes 400 hours of clinical rotation in hospital pharmacies and community drug centers across Garowe and Puntland regional hospitals.",
-    image: "/images/projector-lecture.jpg"
+    image: "/images/pharmacy_program.png"
   },
   {
     id: "nursing",
@@ -139,7 +139,7 @@ export const programsData: Program[] = [
     ],
     clinicalPractice:
       "600+ clinical practical hours in simulation laboratories and real-world clinical ward rotations at Puntland regional hospitals.",
-    image: "/images/neonatal-simulation.jpg"
+    image: "/images/nursing_program.png"
   },
   {
     id: "midwifery",
@@ -198,7 +198,7 @@ export const programsData: Program[] = [
     ],
     clinicalPractice:
       "Includes supervised hands-on deliveries, maternity ward shifts, and primary healthcare clinic clinical attachments.",
-    image: "/images/blood-pressure-check.jpg"
+    image: "/images/midwifery_program.png"
   },
   {
     id: "nutrition",
@@ -257,7 +257,7 @@ export const programsData: Program[] = [
     ],
     clinicalPractice:
       "Field placements with humanitarian nutrition programs, outpatient therapeutic feeding centers (OTPs), and Garowe general hospital wards.",
-    image: "/images/outdoor-practice.jpg"
+    image: "/images/nutrition_program.png"
   },
   {
     id: "public-health",
@@ -316,6 +316,6 @@ export const programsData: Program[] = [
     ],
     clinicalPractice:
       "Supervised field attachments with the Ministry of Health Puntland, regional public health departments, and rural outreach centers.",
-    image: "/images/group-outdoors.jpg"
+    image: "/images/public_health_program.png"
   }
 ];
