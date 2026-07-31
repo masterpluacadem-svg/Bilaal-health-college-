@@ -21,5 +21,5 @@ export const newsData: NewsItem[] = [
       "Bilaal Health Science College in Garowe, Puntland, Somalia is pleased to announce that applications for the upcoming academic year 2026/2027 are officially open. High school graduates with a passion for healthcare education are encouraged to apply online or visit our admissions office on campus. Entrance exams will commence in August.",
     author: "Admissions Office",
     image: "/images/classroom-students.jpg"
-
+  }
 ];
