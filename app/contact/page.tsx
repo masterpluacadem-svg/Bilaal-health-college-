@@ -77,6 +77,11 @@ export default function ContactPage() {
                   <h4 className="font-heading font-bold text-base text-bilaal-dark">Direct Phone Numbers</h4>
                   <div className="text-xs text-gray-700 space-y-1">
                     <div>
+                      <a href="tel:+252904819705" className="hover:text-bilaal-primary font-bold text-emerald-600 hover:underline">
+                        +252 90 481 9705 (Main Desk)
+                      </a>
+                    </div>
+                    <div>
                       <a href="tel:+252907814063" className="hover:text-bilaal-primary font-medium hover:underline">
                         +252 90 781 4063
                       </a>
@@ -84,11 +89,6 @@ export default function ContactPage() {
                     <div>
                       <a href="tel:+252907560281" className="hover:text-bilaal-primary font-medium hover:underline">
                         +252 90 756 0281
-                      </a>
-                    </div>
-                    <div>
-                      <a href="tel:+252906837192" className="hover:text-bilaal-primary font-medium hover:underline">
-                        +252 90 683 7192
                       </a>
                     </div>
                   </div>

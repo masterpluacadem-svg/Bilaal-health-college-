@@ -127,6 +127,11 @@ export const Footer: React.FC = () => {
                 <div className="space-y-1">
                   <div className="font-medium text-white">Call Admissions Desk:</div>
                   <div>
+                    <a href="tel:+252904819705" className="hover:underline hover:text-emerald-400 font-bold">
+                      +252 90 481 9705 (Main Desk)
+                    </a>
+                  </div>
+                  <div>
                     <a href="tel:+252907814063" className="hover:underline hover:text-white">
                       +252 90 781 4063
                     </a>
@@ -134,11 +139,6 @@ export const Footer: React.FC = () => {
                   <div>
                     <a href="tel:+252907560281" className="hover:underline hover:text-white">
                       +252 90 756 0281
-                    </a>
-                  </div>
-                  <div>
-                    <a href="tel:+252906837192" className="hover:underline hover:text-white">
-                      +252 90 683 7192
                     </a>
                   </div>
                 </div>

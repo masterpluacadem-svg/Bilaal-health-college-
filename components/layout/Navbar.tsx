@@ -155,6 +155,12 @@ export const Navbar: React.FC<NavbarProps> = ({ transparentOnTop = false }) => {
                 <div className="font-semibold text-bilaal-primary">Direct Lines Garowe:</div>
                 <div className="flex items-center gap-2">
                   <Phone className="w-3.5 h-3.5 text-bilaal-accent" />
+                  <a href="tel:+252904819705" className="hover:underline font-bold text-emerald-600">
+                    +252 90 481 9705 (Main)
+                  </a>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Phone className="w-3.5 h-3.5 text-bilaal-accent" />
                   <a href="tel:+252907814063" className="hover:underline">
                     +252 90 781 4063
                   </a>
@@ -163,12 +169,6 @@ export const Navbar: React.FC<NavbarProps> = ({ transparentOnTop = false }) => {
                   <Phone className="w-3.5 h-3.5 text-bilaal-accent" />
                   <a href="tel:+252907560281" className="hover:underline">
                     +252 90 756 0281
-                  </a>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Phone className="w-3.5 h-3.5 text-bilaal-accent" />
-                  <a href="tel:+252906837192" className="hover:underline">
-                    +252 90 683 7192
                   </a>
                 </div>
               </div>

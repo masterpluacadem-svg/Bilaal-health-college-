@@ -60,6 +60,9 @@ export const ApplicationForm: React.FC = () => {
 
     if (res.success) {
       setSuccessData(res.data);
+      const whatsappMessage = `Hello Bilaal Health College. I have submitted an online admission application:\n\n*Name:* ${formData.full_name}\n*Phone:* ${formData.phone}\n*Program:* ${formData.program_applied}\n*High School:* ${formData.high_school_name}\n*Completion Year:* ${formData.completion_year}\n*City:* ${formData.address_city}`;
+      const whatsappUrl = `https://wa.me/252904819705?text=${encodeURIComponent(whatsappMessage)}`;
+      window.open(whatsappUrl, '_blank');
     } else {
       setErrorMessage(res.error || 'Submission failed. Please check your connection and try again.');
     }

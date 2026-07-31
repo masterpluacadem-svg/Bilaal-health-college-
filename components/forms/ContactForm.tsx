@@ -37,6 +37,9 @@ export const ContactForm: React.FC = () => {
 
     if (res.success) {
       setSuccess(true);
+      const whatsappMessage = `Hello Bilaal Health College. I have submitted a contact inquiry:\n\n*Name:* ${formData.full_name}\n*Phone:* ${formData.phone}\n*Subject:* ${formData.subject}\n*Message:* ${formData.message}`;
+      const whatsappUrl = `https://wa.me/252904819705?text=${encodeURIComponent(whatsappMessage)}`;
+      window.open(whatsappUrl, '_blank');
       setFormData({
         full_name: '',
         email: '',

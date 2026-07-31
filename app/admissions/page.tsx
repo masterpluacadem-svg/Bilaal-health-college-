@@ -63,7 +63,7 @@ export default function AdmissionsPage() {
     },
     {
       q: 'How can I contact the Admissions Desk directly?',
-      a: 'You can call us directly on +252 90 781 4063, +252 90 756 0281, or +252 90 683 7192, or email bilaalhealthsciencecollege@gmail.com.',
+      a: 'You can call us directly on +252 90 481 9705, +252 90 781 4063, or +252 90 756 0281, or email bilaalhealthsciencecollege@gmail.com.',
     },
   ];
 

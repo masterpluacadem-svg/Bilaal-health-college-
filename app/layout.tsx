@@ -93,7 +93,7 @@ export default function RootLayout({
       addressRegion: 'Puntland',
       addressCountry: 'Somalia',
     },
-    telephone: ['+252907814063', '+252907560281', '+252906837192'],
+    telephone: ['+252904819705', '+252907814063', '+252907560281'],
     email: 'bilaalhealthsciencecollege@gmail.com',
   };
 

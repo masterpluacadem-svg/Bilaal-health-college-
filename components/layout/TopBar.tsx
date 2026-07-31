@@ -32,6 +32,13 @@ export const TopBar: React.FC = () => {
             <span>Call Us:</span>
           </div>
           <a
+            href="tel:+252904819705"
+            className="hover:text-white hover:underline transition-all font-bold text-emerald-300"
+          >
+            +252 90 481 9705
+          </a>
+          <span className="text-white/30">•</span>
+          <a
             href="tel:+252907814063"
             className="hover:text-white hover:underline transition-all"
           >
@@ -43,13 +50,6 @@ export const TopBar: React.FC = () => {
             className="hover:text-white hover:underline transition-all"
           >
             +252 90 756 0281
-          </a>
-          <span className="text-white/30">•</span>
-          <a
-            href="tel:+252906837192"
-            className="hover:text-white hover:underline transition-all"
-          >
-            +252 90 683 7192
           </a>
         </div>
       </div>
